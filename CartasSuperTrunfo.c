@@ -31,7 +31,7 @@ int main() {
       printf ("Digite a área (em km²): \n");
       scanf ("%f", &area);
 
-      printf ("Digite o PIB \n");
+      printf ("Digite o PIB: \n");
       scanf ("%f", &pib);
 
       printf ("Digite o número de pontos turísticos: \n");
@@ -43,8 +43,8 @@ int main() {
       printf ("Código da Carta: %s \n", codigo);
       printf ("Nome da Cidade: %s \n", cidade);
       printf ("População: %d \n", populacao);
-      printf ("Área: %f \n", area);
-      printf ("PIB: %f \n", pib);
+      printf ("Área: %.2f km² \n", area);
+      printf ("PIB: %.2f bilhões de reais \n", pib);
       printf ("Número de Pontos Turísticos: %d \n", pontost);
 
 return 0;
