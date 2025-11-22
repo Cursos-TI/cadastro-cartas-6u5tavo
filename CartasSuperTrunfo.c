@@ -53,7 +53,7 @@ int main() {
       printf ("PIB: %.2f bilhões de reais \n", pib);
       printf ("Número de Pontos Turísticos: %d \n", pontost);
       printf ("Densidade Populacional: %.2f hab/km² \n", densidade);
-      printf ("PIB per Capita: %.11f reais \n", pibcapita);
+      printf ("PIB per Capita: %.2f reais \n", pibcapita);
 
 
       printf ("Digite o estado: \n");
@@ -88,7 +88,7 @@ int main() {
       printf ("PIB: %.2f bilhões de reais \n", pib);
       printf ("Número de Pontos Turísticos: %d \n", pontost);
       printf ("Densidade Populacional: %.2f hab/km² \n", densidade);
-      printf ("PIB per Capita: %.11f reais \n", pibcapita);
+      printf ("PIB per Capita: %.2f reais \n", pibcapita);
 
 return 0;
 } 
