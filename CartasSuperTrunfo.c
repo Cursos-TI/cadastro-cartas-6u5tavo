@@ -14,7 +14,6 @@ int main() {
       float areaA, pibA, densidadeA, pibcapitaA;
 
       float superpoderA, superpoderB;
-      int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6, resultado7;
 
       int pontostB;
       unsigned long int populacaoB;
@@ -109,24 +108,15 @@ int main() {
 
   // Área para comparações entre as cartas
 
-      resultado1 = populacaoA > populacaoB; 
-      resultado2 = areaA > areaB; 
-      resultado3 = pibA > pibB; 
-      resultado4 = pontostA > pontostB; 
-      resultado5 = densidadeA < densidadeB; 
-      resultado6 = pibcapitaA > pibcapitaB; 
-      resultado7 = superpoderA > superpoderB;
-
-  // Área para saída de dados da comparação
-
-      printf("Comparação de Cartas: \n");
-      printf("População: Carta 1 venceu - (%d)\n", resultado1);
-      printf("Área: Carta 1 venceu - (%d)\n", resultado2);
-      printf("PIB: Carta 1 venceu - (%d)\n", resultado3);
-      printf("Pontos Turísticos: Carta 1 venceu - (%d)\n", resultado4);
-      printf("Densidade Populacional: Carta 1 venceu - (%d)\n", resultado5);
-      printf("PIB per Capita: Carta 1 venceu - (%d)\n", resultado6);
-      printf("Super Poder: Carta 1 venceu - (%d)\n", resultado7);
+      if (populacaoA > populacaoB){
+        printf("Carta 1 - %s: %d\n", cidadeA, populacaoA);
+        printf("Carta 2 - %s: %d\n", cidadeB, populacaoB);
+        printf("Resultado: Carta 1 (%s) venceu", cidadeA);
+      } else {
+        printf("Carta 1 - %s: %d\n", cidadeA, populacaoA);
+        printf("Carta 2 - %s: %d\n", cidadeB, populacaoB);
+        printf("Resultado: Carta 2 (%s) venceu", cidadeB);
+      }
 
 return 0;
 } 
